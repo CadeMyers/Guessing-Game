@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Number Guessing Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload="initial()">
+        <div id="container">
+            <div class="pannel">
+                <h2>A random number between 1-100 has been selected</h2>
+                <h3>Submit your guess below</h3>
+                
+            </div>
+            <div class="pannel">
+                <h3 id="textOutput">Good Luck!</h3>
+                <input type="number" id="inputBox" onchange="compareGuess()">
+                <p>Previous Attempts: <span id="guesses"></span></p>
+            </div>
+            <div class="pannel">
+                <p>Previous Guesses: </p>
+                <p id="guessLog"></p>
+                <button onclick="newGame()">Start New Game</button>
+            </div>
+        </div>
+       
+        <script src="script.js"></script>
+        
+    </body>
+</html>

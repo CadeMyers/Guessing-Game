@@ -1,0 +1,32 @@
+body {
+    font-size: 25px;
+}
+
+#container {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    background: cornsilk;
+}
+
+.pannel {
+    max-width: 70%;
+    margin: 15px auto;
+    padding: 10px;
+    background: #99ff99;
+}
+
+button {
+    background: khaki;
+    height: 2em;
+    width: 25%;
+    font-size: 15px;
+}
+
+input {
+    border-radius: 10px;
+    width: 50%;
+    height: 4em;
+    text-align: center;
+}
